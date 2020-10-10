@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464C59D32531B1CE00171DA6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464C59D22531B1CE00171DA6 /* WidgetKit.framework */; };
+		464C59D52531B1CE00171DA6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464C59D42531B1CE00171DA6 /* SwiftUI.framework */; };
+		464C59D82531B1CE00171DA6 /* EyequetteSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C59D72531B1CE00171DA6 /* EyequetteSquare.swift */; };
+		464C59DB2531B1D000171DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464C59DA2531B1D000171DA6 /* Assets.xcassets */; };
+		464C59DD2531B1D000171DA6 /* EyequetteSquare.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 464C59D92531B1CE00171DA6 /* EyequetteSquare.intentdefinition */; };
+		464C59DE2531B1D000171DA6 /* EyequetteSquare.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 464C59D92531B1CE00171DA6 /* EyequetteSquare.intentdefinition */; };
+		464C59E12531B1D000171DA6 /* EyequetteSquareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 464C59D02531B1CE00171DA6 /* EyequetteSquareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		464C59FA2531B33A00171DA6 /* Eyequette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464C59F82531B33A00171DA6 /* Eyequette.xcdatamodeld */; };
+		464C59FB2531B33A00171DA6 /* Eyequette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464C59F82531B33A00171DA6 /* Eyequette.xcdatamodeld */; };
+		464C5A042531BBC400171DA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464C5A032531BBC400171DA6 /* CloudKit.framework */; };
+		464C5A0A2531BD9C00171DA6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C5A092531BD9C00171DA6 /* CircleButton.swift */; };
+		464C5A0B2531BD9C00171DA6 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C5A092531BD9C00171DA6 /* CircleButton.swift */; };
+		464C5A1D2531D53C00171DA6 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C5A1C2531D53C00171DA6 /* PersistentStore.swift */; };
+		464C5A1E2531D53C00171DA6 /* PersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C5A1C2531D53C00171DA6 /* PersistentStore.swift */; };
+		46ECC18524A19D73005994AB /* EyequetteUniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC17224A19D71005994AB /* EyequetteUniversalApp.swift */; };
+		46ECC18624A19D73005994AB /* EyequetteUniversalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC17224A19D71005994AB /* EyequetteUniversalApp.swift */; };
+		46ECC18724A19D73005994AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC17324A19D71005994AB /* ContentView.swift */; };
+		46ECC18824A19D73005994AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECC17324A19D71005994AB /* ContentView.swift */; };
+		46ECC18924A19D73005994AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ECC17424A19D73005994AB /* Assets.xcassets */; };
+		46ECC18A24A19D73005994AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ECC17424A19D73005994AB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464C59DF2531B1D000171DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46ECC16D24A19D71005994AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464C59CF2531B1CE00171DA6;
+			remoteInfo = EyequetteSquareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		464C59E22531B1D000171DA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				464C59E12531B1D000171DA6 /* EyequetteSquareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		464C59D02531B1CE00171DA6 /* EyequetteSquareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EyequetteSquareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		464C59D22531B1CE00171DA6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = Library/Frameworks/WidgetKit.framework; sourceTree = DEVELOPER_DIR; };
+		464C59D42531B1CE00171DA6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		464C59D72531B1CE00171DA6 /* EyequetteSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyequetteSquare.swift; sourceTree = "<group>"; };
+		464C59D92531B1CE00171DA6 /* EyequetteSquare.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = EyequetteSquare.intentdefinition; sourceTree = "<group>"; };
+		464C59DA2531B1D000171DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464C59DC2531B1D000171DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464C59F92531B33A00171DA6 /* Eyequette.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eyequette.xcdatamodel; sourceTree = "<group>"; };
+		464C59FF2531BBB500171DA6 /* EyequetteUniversal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EyequetteUniversal.entitlements; sourceTree = "<group>"; };
+		464C5A032531BBC400171DA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		464C5A092531BD9C00171DA6 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		464C5A1C2531D53C00171DA6 /* PersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStore.swift; sourceTree = "<group>"; };
+		46ECC17224A19D71005994AB /* EyequetteUniversalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyequetteUniversalApp.swift; sourceTree = "<group>"; };
+		46ECC17324A19D71005994AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46ECC17424A19D73005994AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46ECC17924A19D73005994AB /* EyequetteUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyequetteUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ECC17C24A19D73005994AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ECC18124A19D73005994AB /* EyequetteUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyequetteUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ECC18324A19D73005994AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ECC18424A19D73005994AB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464C59CD2531B1CE00171DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C59D52531B1CE00171DA6 /* SwiftUI.framework in Frameworks */,
+				464C59D32531B1CE00171DA6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17624A19D73005994AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C5A042531BBC400171DA6 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17E24A19D73005994AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464C59D12531B1CE00171DA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464C5A032531BBC400171DA6 /* CloudKit.framework */,
+				464C59D22531B1CE00171DA6 /* WidgetKit.framework */,
+				464C59D42531B1CE00171DA6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464C59D62531B1CE00171DA6 /* EyequetteSquare */ = {
+			isa = PBXGroup;
+			children = (
+				464C59D72531B1CE00171DA6 /* EyequetteSquare.swift */,
+				464C59D92531B1CE00171DA6 /* EyequetteSquare.intentdefinition */,
+				464C59DA2531B1D000171DA6 /* Assets.xcassets */,
+				464C59DC2531B1D000171DA6 /* Info.plist */,
+			);
+			path = EyequetteSquare;
+			sourceTree = "<group>";
+		};
+		464C5A082531BD8900171DA6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				464C5A092531BD9C00171DA6 /* CircleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		464C5A122531BE1200171DA6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				464C5A1C2531D53C00171DA6 /* PersistentStore.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		46ECC16C24A19D71005994AB = {
+			isa = PBXGroup;
+			children = (
+				46ECC17124A19D71005994AB /* Shared */,
+				46ECC17B24A19D73005994AB /* iOS */,
+				46ECC18224A19D73005994AB /* macOS */,
+				464C59D62531B1CE00171DA6 /* EyequetteSquare */,
+				464C59D12531B1CE00171DA6 /* Frameworks */,
+				46ECC17A24A19D73005994AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46ECC17124A19D71005994AB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				464C5A122531BE1200171DA6 /* Objects */,
+				464C5A082531BD8900171DA6 /* Components */,
+				46ECC17224A19D71005994AB /* EyequetteUniversalApp.swift */,
+				46ECC17324A19D71005994AB /* ContentView.swift */,
+				46ECC17424A19D73005994AB /* Assets.xcassets */,
+				464C59F82531B33A00171DA6 /* Eyequette.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		46ECC17A24A19D73005994AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46ECC17924A19D73005994AB /* EyequetteUniversal.app */,
+				46ECC18124A19D73005994AB /* EyequetteUniversal.app */,
+				464C59D02531B1CE00171DA6 /* EyequetteSquareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46ECC17B24A19D73005994AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				464C59FF2531BBB500171DA6 /* EyequetteUniversal.entitlements */,
+				46ECC17C24A19D73005994AB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		46ECC18224A19D73005994AB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				46ECC18324A19D73005994AB /* Info.plist */,
+				46ECC18424A19D73005994AB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464C59CF2531B1CE00171DA6 /* EyequetteSquareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464C59E52531B1D000171DA6 /* Build configuration list for PBXNativeTarget "EyequetteSquareExtension" */;
+			buildPhases = (
+				464C59CC2531B1CE00171DA6 /* Sources */,
+				464C59CD2531B1CE00171DA6 /* Frameworks */,
+				464C59CE2531B1CE00171DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyequetteSquareExtension;
+			productName = EyequetteSquareExtension;
+			productReference = 464C59D02531B1CE00171DA6 /* EyequetteSquareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		46ECC17824A19D73005994AB /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ECC18D24A19D73005994AB /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				46ECC17524A19D73005994AB /* Sources */,
+				46ECC17624A19D73005994AB /* Frameworks */,
+				46ECC17724A19D73005994AB /* Resources */,
+				464C59E22531B1D000171DA6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464C59E02531B1D000171DA6 /* PBXTargetDependency */,
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 46ECC17924A19D73005994AB /* EyequetteUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46ECC18024A19D73005994AB /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ECC19024A19D73005994AB /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				46ECC17D24A19D73005994AB /* Sources */,
+				46ECC17E24A19D73005994AB /* Frameworks */,
+				46ECC17F24A19D73005994AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 46ECC18124A19D73005994AB /* EyequetteUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46ECC16D24A19D71005994AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					464C59CF2531B1CE00171DA6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					46ECC17824A19D73005994AB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					46ECC18024A19D73005994AB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 46ECC17024A19D71005994AB /* Build configuration list for PBXProject "EyequetteUniversal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46ECC16C24A19D71005994AB;
+			productRefGroup = 46ECC17A24A19D73005994AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46ECC17824A19D73005994AB /* iOS */,
+				46ECC18024A19D73005994AB /* macOS */,
+				464C59CF2531B1CE00171DA6 /* EyequetteSquareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464C59CE2531B1CE00171DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C59DB2531B1D000171DA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17724A19D73005994AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ECC18924A19D73005994AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17F24A19D73005994AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ECC18A24A19D73005994AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464C59CC2531B1CE00171DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C59DD2531B1D000171DA6 /* EyequetteSquare.intentdefinition in Sources */,
+				464C59D82531B1CE00171DA6 /* EyequetteSquare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17524A19D73005994AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464C5A0A2531BD9C00171DA6 /* CircleButton.swift in Sources */,
+				464C59DE2531B1D000171DA6 /* EyequetteSquare.intentdefinition in Sources */,
+				464C59FA2531B33A00171DA6 /* Eyequette.xcdatamodeld in Sources */,
+				46ECC18724A19D73005994AB /* ContentView.swift in Sources */,
+				464C5A1D2531D53C00171DA6 /* PersistentStore.swift in Sources */,
+				46ECC18524A19D73005994AB /* EyequetteUniversalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ECC17D24A19D73005994AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ECC18824A19D73005994AB /* ContentView.swift in Sources */,
+				46ECC18624A19D73005994AB /* EyequetteUniversalApp.swift in Sources */,
+				464C5A1E2531D53C00171DA6 /* PersistentStore.swift in Sources */,
+				464C59FB2531B33A00171DA6 /* Eyequette.xcdatamodeld in Sources */,
+				464C5A0B2531BD9C00171DA6 /* CircleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464C59E02531B1D000171DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464C59CF2531B1CE00171DA6 /* EyequetteSquareExtension */;
+			targetProxy = 464C59DF2531B1D000171DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		464C59E32531B1D000171DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = EyequetteSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal.EyequetteSquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		464C59E42531B1D000171DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				INFOPLIST_FILE = EyequetteSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal.EyequetteSquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46ECC18B24A19D73005994AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46ECC18C24A19D73005994AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46ECC18E24A19D73005994AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/EyequetteUniversal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal;
+				PRODUCT_NAME = EyequetteUniversal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46ECC18F24A19D73005994AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/EyequetteUniversal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal;
+				PRODUCT_NAME = EyequetteUniversal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46ECC19124A19D73005994AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal;
+				PRODUCT_NAME = EyequetteUniversal;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46ECC19224A19D73005994AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.EyequetteUniversal;
+				PRODUCT_NAME = EyequetteUniversal;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464C59E52531B1D000171DA6 /* Build configuration list for PBXNativeTarget "EyequetteSquareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464C59E32531B1D000171DA6 /* Debug */,
+				464C59E42531B1D000171DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ECC17024A19D71005994AB /* Build configuration list for PBXProject "EyequetteUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ECC18B24A19D73005994AB /* Debug */,
+				46ECC18C24A19D73005994AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ECC18D24A19D73005994AB /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ECC18E24A19D73005994AB /* Debug */,
+				46ECC18F24A19D73005994AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ECC19024A19D73005994AB /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ECC19124A19D73005994AB /* Debug */,
+				46ECC19224A19D73005994AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		464C59F82531B33A00171DA6 /* Eyequette.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				464C59F92531B33A00171DA6 /* Eyequette.xcdatamodel */,
+			);
+			currentVersion = 464C59F92531B33A00171DA6 /* Eyequette.xcdatamodel */;
+			path = Eyequette.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46ECC16D24A19D71005994AB /* Project object */;
+}
